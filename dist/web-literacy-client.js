@@ -71,6 +71,7 @@ function WebLiteracyClient(options) {
         term: self.term(item.tag),
         tag: item.tag,
         color: item.color,
+        colour: item.color,
         description: self.description(item.tag)
       };
     });
